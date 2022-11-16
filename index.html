@@ -129,11 +129,11 @@ const Max_out_of_three = (A,B,C) => {
     <p>You are given 3 distinct integers X,Y and Z and your task is to find and return the second smallest integer among the three provided integers.</p>
     <pre class="code-box1">
 const findSndSmallest = (x,y,z) => {
-    if(x<y && x>z || x>y && x<z)
+    if(x < y && x > z || x > y && x < z)
       return (x);
     else if (y < x && y>z || y > x && y < z)
       return (y);
-    else if (z < x && z>y || z>x && z < y)
+    else if (z < x && z>y || z > x && z < y)
       return (z);
     else
      return "-1";  
